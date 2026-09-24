@@ -1,0 +1,13 @@
+Row,LevelType,Elevation_m,Elevation_imperial,Scope,GridFrom,GridTo,Profile,Notes
+R2,BOBP,0.914,103'-0",row,1,6,,Base plate bottom
+R2,TOS,2.415,107'-11 1/16",row,1,6,,
+R2,TOS,7.315,124'-0",row,1,6,,
+R2,TOS,10.965,135'-11 11/16",row,1,6,,
+R2,Splice,12.715,141'-8 9/16",row,1,6,,Column splice level
+R2,TOS,14.615,147'-11 3/8",row,1,6,,
+R2,TOS,15.465,150'-8 7/8",local,1,2,,Only near section X2-X2 - verify extent
+R2,TOS,18.265,159'-11 1/8",row,1,6,,
+R2,TOS,21.915,171'-10 13/16",row,1,6,,
+R2,TOS,23.965,178'-7 1/2",local,1,2,,Only near section X2-X2 - verify extent
+R2,TOS,26.115,185'-8 1/8",row,1,6,,
+R2,TOS,29.215,195'-10 3/16",row,1,6,,

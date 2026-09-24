@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>TeklaModelExport</RootNamespace>
+    <AssemblyName>TeklaModelExport</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!--
+    Point these at your Tekla Structures installation's bin folder, e.g.
+    C:\Program Files\Tekla Structures\2023.0\nt\bin
+    Override at build time with:
+      dotnet build -p:TeklaBin="C:\Program Files\Tekla Structures\2023.0\nt\bin"
+  -->
+  <PropertyGroup>
+    <TeklaBin Condition="'$(TeklaBin)' == ''">C:\Program Files\Tekla Structures\2023.0\nt\bin</TeklaBin>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Tekla.Structures">
+      <HintPath>$(TeklaBin)\Tekla.Structures.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Model">
+      <HintPath>$(TeklaBin)\Tekla.Structures.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Tekla.Structures.Geometry3d">
+      <HintPath>$(TeklaBin)\Tekla.Structures.Geometry3d.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

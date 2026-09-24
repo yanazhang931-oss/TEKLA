@@ -1,0 +1,4 @@
+# compare_model_to_basis.py uses only the Python standard library
+# (csv, argparse, collections) - no third-party dependencies required.
+# This file is kept as a placeholder in case future revisions add pandas
+# for more advanced reporting (pivot tables, Excel output, etc).
