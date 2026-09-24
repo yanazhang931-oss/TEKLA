@@ -28,6 +28,9 @@
     <Reference Include="Tekla.Structures.Geometry3d">
       <HintPath>$(TeklaBin)\Tekla.Structures.Geometry3d.dll</HintPath>
     </Reference>
+    <Reference Include="Tekla.Structures.Model.UI">
+      <HintPath>$(TeklaBin)\Tekla.Structures.Model.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
